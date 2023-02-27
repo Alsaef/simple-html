@@ -25,10 +25,44 @@ body{
 .write li{
     font-weight: 800;
 }
-.write a{
+.write a{ margin-left: 10px;
     background-color: orangered;
     padding: 12px;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    font-weight: bold;
+}
+.about{ border-radius: 5px;
+    margin: 30px;
+    margin-left: 30%;
+    background-color: skyblue;
+    padding: 30px;
+    width: 200px;
+}
+.about h1{
+    color: aliceblue;
+    font-weight: bold;
+}
+.about p{
+    color: lightslategray;
+    font-weight: bold;
+    line-height: 22px;
+}
+.about a{
+  
+    background-color: orangered;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.write a:hover{
+    background-color: white;
+    color: orange;
+}
+.about a:hover{
+    background-color: white;
+    color: orange;
 }
